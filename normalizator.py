@@ -4,8 +4,6 @@ import soundfile as sf
 import pyloudnorm as pyln
 from tqdm import tqdm
 
-music_path = '/Users/rmakhlin/Documents/QUIZ MUSIC/TEMPLATE'
-
 parser = argparse.ArgumentParser(description="Normalises sound to target LUFS level for audio files in specified folder and its subfolders",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
